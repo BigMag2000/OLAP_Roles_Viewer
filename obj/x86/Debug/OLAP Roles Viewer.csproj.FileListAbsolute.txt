@@ -1,0 +1,27 @@
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\OLAP_roles.frmCubeRoles.resources
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\OLAP_roles.Properties.Resources.resources
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\OLAP_roles.frmGetDomainUser.resources
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\bin\Debug\OLAP roles viewer.exe.manifest
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\bin\Debug\OLAP roles viewer.application
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\bin\Debug\OLAP roles viewer.exe
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\bin\Debug\OLAP roles viewer.pdb
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\OLAP roles viewer.exe.manifest
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\OLAP roles viewer.application
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\OLAP roles viewer.exe
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Debug\OLAP roles viewer.pdb
+F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP roles viewer.exe
+F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP roles viewer.pdb
+F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP_roles.frmCubeRoles.resources
+F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP_roles.frmGetDomainUser.resources
+F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP_roles.Properties.Resources.resources
+F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP Roles Viewer.csproj.GenerateResource.Cache
+F:\MyProjects\OLAP roles\bin\Debug\OLAP roles viewer.exe.manifest
+F:\MyProjects\OLAP roles\bin\Debug\OLAP roles viewer.application
+F:\MyProjects\OLAP roles\bin\Debug\OLAP roles viewer.exe
+F:\MyProjects\OLAP roles\bin\Debug\OLAP roles viewer.pdb
+F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP roles viewer.exe.manifest
+F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP roles viewer.application
+F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP Roles Viewer.csprojResolveAssemblyReference.cache

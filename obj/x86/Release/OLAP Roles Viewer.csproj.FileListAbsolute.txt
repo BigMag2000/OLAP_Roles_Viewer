@@ -1,0 +1,15 @@
+F:\MyProjects\OLAP roles\bin\Release\OLAP roles viewer.exe.manifest
+F:\MyProjects\OLAP roles\bin\Release\OLAP roles viewer.application
+F:\MyProjects\OLAP roles\bin\Release\OLAP roles viewer.exe
+F:\MyProjects\OLAP roles\bin\Release\OLAP roles viewer.pdb
+F:\MyProjects\OLAP roles\obj\x86\Release\OLAP_roles.frmCubeRoles.resources
+F:\MyProjects\OLAP roles\obj\x86\Release\OLAP_roles.frmGetDomainUser.resources
+F:\MyProjects\OLAP roles\obj\x86\Release\OLAP_roles.Properties.Resources.resources
+F:\MyProjects\OLAP roles\obj\x86\Release\OLAP Roles Viewer.csproj.GenerateResource.Cache
+F:\MyProjects\OLAP roles\obj\x86\Release\OLAP roles viewer.exe.manifest
+F:\MyProjects\OLAP roles\obj\x86\Release\OLAP roles viewer.application
+F:\MyProjects\OLAP roles\obj\x86\Release\OLAP roles viewer.exe
+F:\MyProjects\OLAP roles\obj\x86\Release\OLAP roles viewer.pdb
+F:\MyProjects\OLAP roles\obj\x86\Release\OLAP Roles Viewer.csprojResolveAssemblyReference.cache
+F:\MyProjects\OLAProlesViewer\obj\x86\Release\OLAP roles viewer.exe
+F:\MyProjects\OLAProlesViewer\obj\x86\Release\OLAP roles viewer.pdb

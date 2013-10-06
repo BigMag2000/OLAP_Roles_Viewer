@@ -1,0 +1,14 @@
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\bin\Release\OLAP roles.exe.manifest
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\bin\Release\OLAP roles.application
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\bin\Release\OLAP roles.exe
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\bin\Release\OLAP roles.pdb
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\OLAP_roles.frmMain.resources
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\OLAP_roles.frmCubeRoles.resources
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\OLAP_roles.Properties.Resources.resources
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\OLAP roles.exe.manifest
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\OLAP roles.application
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\OLAP roles.exe
+C:\Users\glazov.HOUSE\documents\visual studio 2010\Projects\OLAP roles\OLAP roles\obj\x86\Release\OLAP roles.pdb
