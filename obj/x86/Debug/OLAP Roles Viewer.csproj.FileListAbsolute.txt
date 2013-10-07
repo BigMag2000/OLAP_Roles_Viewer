@@ -25,3 +25,16 @@ F:\MyProjects\OLAP roles\bin\Debug\OLAP roles viewer.pdb
 F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP roles viewer.exe.manifest
 F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP roles viewer.application
 F:\MyProjects\OLAP roles\obj\x86\Debug\OLAP Roles Viewer.csprojResolveAssemblyReference.cache
+F:\My Files\GitHub\OLAP_Roles_Viewer\obj\x86\Debug\OLAP roles viewer.exe
+F:\My Files\GitHub\OLAP_Roles_Viewer\obj\x86\Debug\OLAP roles viewer.pdb
+F:\My Files\GitHub\OLAP_Roles_Viewer\bin\Debug\OLAP roles viewer.exe.manifest
+F:\My Files\GitHub\OLAP_Roles_Viewer\bin\Debug\OLAP roles viewer.application
+F:\My Files\GitHub\OLAP_Roles_Viewer\bin\Debug\OLAP roles viewer.exe
+F:\My Files\GitHub\OLAP_Roles_Viewer\bin\Debug\OLAP roles viewer.pdb
+F:\My Files\GitHub\OLAP_Roles_Viewer\obj\x86\Debug\OLAP Roles Viewer.csprojResolveAssemblyReference.cache
+F:\My Files\GitHub\OLAP_Roles_Viewer\obj\x86\Debug\OLAP_roles.frmCubeRoles.resources
+F:\My Files\GitHub\OLAP_Roles_Viewer\obj\x86\Debug\OLAP_roles.frmGetDomainUser.resources
+F:\My Files\GitHub\OLAP_Roles_Viewer\obj\x86\Debug\OLAP_roles.Properties.Resources.resources
+F:\My Files\GitHub\OLAP_Roles_Viewer\obj\x86\Debug\OLAP Roles Viewer.csproj.GenerateResource.Cache
+F:\My Files\GitHub\OLAP_Roles_Viewer\obj\x86\Debug\OLAP roles viewer.exe.manifest
+F:\My Files\GitHub\OLAP_Roles_Viewer\obj\x86\Debug\OLAP roles viewer.application

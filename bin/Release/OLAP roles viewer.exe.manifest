@@ -4,7 +4,7 @@
   <description asmv2:iconFile="kdmconfig_1808.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="OLAP roles viewer" version="1.0.3.0" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="OLAP roles viewer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
     <commandLine file="OLAP roles viewer.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -277,14 +277,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OLAP roles viewer.exe" size="201728">
-      <assemblyIdentity name="OLAP roles viewer" version="1.0.3.0" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OLAP roles viewer.exe" size="203264">
+      <assemblyIdentity name="OLAP roles viewer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>mhZJrxXjk3P0VkKRrW7gvxm4nXY=</dsig:DigestValue>
+        <dsig:DigestValue>qVEhLkigVcbGp+hkLrbLgXpwig0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

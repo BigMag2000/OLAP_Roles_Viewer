@@ -54,6 +54,10 @@
             this.btnLoad = new System.Windows.Forms.ToolStripButton();
             this.btnSave = new System.Windows.Forms.ToolStripButton();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.txtFind = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripContainer1.BottomToolStripPanel.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
@@ -93,11 +97,11 @@
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.Controls.Add(this.splitContainer1);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(529, 445);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(607, 444);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
             this.toolStripContainer1.Name = "toolStripContainer1";
-            this.toolStripContainer1.Size = new System.Drawing.Size(529, 492);
+            this.toolStripContainer1.Size = new System.Drawing.Size(607, 491);
             this.toolStripContainer1.TabIndex = 1;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
@@ -114,7 +118,7 @@
             this.stBarList2});
             this.statusStrip1.Location = new System.Drawing.Point(0, 0);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(529, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(607, 22);
             this.statusStrip1.TabIndex = 0;
             // 
             // stBarStatusLoad
@@ -148,8 +152,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tabRoleUser);
-            this.splitContainer1.Size = new System.Drawing.Size(529, 445);
-            this.splitContainer1.SplitterDistance = 175;
+            this.splitContainer1.Size = new System.Drawing.Size(607, 444);
+            this.splitContainer1.SplitterDistance = 200;
             this.splitContainer1.TabIndex = 1;
             // 
             // dxListCubes
@@ -157,7 +161,7 @@
             this.dxListCubes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dxListCubes.Location = new System.Drawing.Point(0, 0);
             this.dxListCubes.Name = "dxListCubes";
-            this.dxListCubes.Size = new System.Drawing.Size(175, 445);
+            this.dxListCubes.Size = new System.Drawing.Size(200, 444);
             this.dxListCubes.TabIndex = 0;
             this.dxListCubes.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dxListCubes_MouseClick);
             // 
@@ -169,7 +173,7 @@
             this.tabRoleUser.Location = new System.Drawing.Point(0, 0);
             this.tabRoleUser.Name = "tabRoleUser";
             this.tabRoleUser.SelectedIndex = 0;
-            this.tabRoleUser.Size = new System.Drawing.Size(350, 445);
+            this.tabRoleUser.Size = new System.Drawing.Size(403, 444);
             this.tabRoleUser.TabIndex = 2;
             this.tabRoleUser.SelectedIndexChanged += new System.EventHandler(this.tabRoleUser_SelectedIndexChanged);
             // 
@@ -179,7 +183,7 @@
             this.tabRoles.Location = new System.Drawing.Point(4, 22);
             this.tabRoles.Name = "tabRoles";
             this.tabRoles.Padding = new System.Windows.Forms.Padding(3);
-            this.tabRoles.Size = new System.Drawing.Size(342, 419);
+            this.tabRoles.Size = new System.Drawing.Size(395, 418);
             this.tabRoles.TabIndex = 0;
             this.tabRoles.Text = "Роли в ОЛАПе";
             this.tabRoles.UseVisualStyleBackColor = true;
@@ -197,8 +201,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.dxListUsers);
-            this.splitContainer2.Size = new System.Drawing.Size(336, 413);
-            this.splitContainer2.SplitterDistance = 147;
+            this.splitContainer2.Size = new System.Drawing.Size(389, 412);
+            this.splitContainer2.SplitterDistance = 180;
             this.splitContainer2.TabIndex = 2;
             // 
             // dxListRoles
@@ -207,7 +211,7 @@
             this.dxListRoles.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dxListRoles.Location = new System.Drawing.Point(0, 0);
             this.dxListRoles.Name = "dxListRoles";
-            this.dxListRoles.Size = new System.Drawing.Size(147, 413);
+            this.dxListRoles.Size = new System.Drawing.Size(180, 412);
             this.dxListRoles.TabIndex = 1;
             this.dxListRoles.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dxListRoles_MouseClick);
             // 
@@ -239,7 +243,7 @@
             this.dxListUsers.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dxListUsers.Location = new System.Drawing.Point(0, 0);
             this.dxListUsers.Name = "dxListUsers";
-            this.dxListUsers.Size = new System.Drawing.Size(185, 413);
+            this.dxListUsers.Size = new System.Drawing.Size(205, 412);
             this.dxListUsers.TabIndex = 2;
             this.dxListUsers.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dxListUsers_MouseDoubleClick);
             // 
@@ -249,7 +253,7 @@
             this.tabUsers.Location = new System.Drawing.Point(4, 22);
             this.tabUsers.Name = "tabUsers";
             this.tabUsers.Padding = new System.Windows.Forms.Padding(3);
-            this.tabUsers.Size = new System.Drawing.Size(342, 419);
+            this.tabUsers.Size = new System.Drawing.Size(395, 418);
             this.tabUsers.TabIndex = 1;
             this.tabUsers.Text = "Пользователи";
             this.tabUsers.UseVisualStyleBackColor = true;
@@ -267,8 +271,8 @@
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.dxListUserRoles);
-            this.splitContainer3.Size = new System.Drawing.Size(336, 413);
-            this.splitContainer3.SplitterDistance = 159;
+            this.splitContainer3.Size = new System.Drawing.Size(389, 412);
+            this.splitContainer3.SplitterDistance = 184;
             this.splitContainer3.TabIndex = 2;
             // 
             // dxListUserAll
@@ -276,7 +280,7 @@
             this.dxListUserAll.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dxListUserAll.Location = new System.Drawing.Point(0, 0);
             this.dxListUserAll.Name = "dxListUserAll";
-            this.dxListUserAll.Size = new System.Drawing.Size(159, 413);
+            this.dxListUserAll.Size = new System.Drawing.Size(184, 412);
             this.dxListUserAll.TabIndex = 1;
             this.dxListUserAll.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dxListUserAll_MouseClick);
             this.dxListUserAll.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dxListUserAll_MouseDoubleClick);
@@ -286,7 +290,7 @@
             this.dxListUserRoles.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dxListUserRoles.Location = new System.Drawing.Point(0, 0);
             this.dxListUserRoles.Name = "dxListUserRoles";
-            this.dxListUserRoles.Size = new System.Drawing.Size(173, 413);
+            this.dxListUserRoles.Size = new System.Drawing.Size(201, 412);
             this.dxListUserRoles.TabIndex = 2;
             // 
             // toolStrip1
@@ -296,10 +300,14 @@
             this.txtServerName,
             this.btnLoad,
             this.btnSave,
+            this.toolStripSeparator1,
+            this.toolStripLabel1,
+            this.txtFind,
+            this.toolStripSeparator2,
             this.btnExit});
             this.toolStrip1.Location = new System.Drawing.Point(3, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(341, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(528, 25);
             this.toolStrip1.TabIndex = 0;
             // 
             // txtServerName
@@ -339,11 +347,33 @@
             this.btnExit.Text = "Выход";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(42, 22);
+            this.toolStripLabel1.Text = "Поиск";
+            // 
+            // txtFind
+            // 
+            this.txtFind.Name = "txtFind";
+            this.txtFind.Size = new System.Drawing.Size(100, 25);
+            this.txtFind.TextChanged += new System.EventHandler(this.txtFind_TextChanged);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
             // frmCubeRoles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 492);
+            this.ClientSize = new System.Drawing.Size(607, 491);
             this.Controls.Add(this.toolStripContainer1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCubeRoles";
@@ -413,5 +443,9 @@
         private System.Windows.Forms.SplitContainer splitContainer3;
         private DevExpress.XtraEditors.ListBoxControl dxListUserAll;
         private DevExpress.XtraEditors.ListBoxControl dxListUserRoles;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.ToolStripTextBox txtFind;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
     }
 }

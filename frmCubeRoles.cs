@@ -118,10 +118,7 @@ namespace OLAP_roles
             else
             { // Показать Пользователи -->> Роли 
                 _OLAP.db.listUsers.Sort();
-                dxListUserAll.DataSource = _OLAP.db.listUsers;
-                dxListUserAll.DisplayMember = "ShortName";
-                dxListUserAll.ValueMember = "Name";
-                stBarList1.Text = string.Format(">>> {0} пользователей", _OLAP.db.listUsers.Count.ToString());
+                ShowFilteredUsers(dxListUserAll, _OLAP.db.listUsers);
             }
         }
 
@@ -136,13 +133,21 @@ namespace OLAP_roles
             if (dxListRoles.SelectedIndex != -1)
             {
                 _OLAP.role = (mycOLAProle)dxListRoles.SelectedItem;
-                _OLAP.role.listUser.Sort();
-                dxListUsers.DataSource = ((mycOLAProle)dxListRoles.SelectedItem).listUser;
-                dxListUsers.DisplayMember = "ShortName";
-                dxListUsers.ValueMember = "Name";
-                //dxListUsers.SortOrder = SortOrder.Ascending;
-                stBarList2.Text = string.Format(">>> {0} пользователй", _OLAP.role.listUser.Count.ToString());
+                List<mycOLAPuser> lstUser = _OLAP.role.listUser;
+                lstUser.Sort();
+                ShowFilteredUsers(dxListUsers, lstUser);
             }
+        }
+
+        private void ShowFilteredUsers( DevExpress.XtraEditors.ListBoxControl dxList , List<mycOLAPuser> lstUser)
+        {
+            dxList.DataSource = lstUser;
+            dxList.DisplayMember = "ShortName";
+            dxList.ValueMember = "Name";
+            if (tabRoleUser.SelectedTab.Name == tabRoles.Name)
+                stBarList2.Text = string.Format(">>> {0} пользователй", lstUser.Count.ToString());
+            else
+                stBarList1.Text = string.Format(">>> {0} пользователей", lstUser.Count.ToString());
         }
 
         private void dxListUserAll_MouseClick(object sender, MouseEventArgs e)
@@ -324,6 +329,33 @@ namespace OLAP_roles
         {
             mycOLAPuser ouser = (mycOLAPuser)dxListUserAll.SelectedItem;
             MessageBox.Show(string.Format("SID={0};\nName={1};", ouser.SID, ouser.Name));
+        }
+
+        private void txtFind_TextChanged(object sender, EventArgs e)
+        {
+            List<mycOLAPuser> lstUser;
+
+            // Для каждой закладки свой фильтр
+            if (tabRoleUser.SelectedTab.Name == tabRoles.Name)
+            {   // назакладке Роли->юзеры
+                // отфильтровать список по именам
+                if (txtFind.Text.Length == 0)
+                    lstUser = _OLAP.role.listUser;
+                else
+                    lstUser = _OLAP.role.listUser.FindAll(x => (x.Name.Contains(txtFind.Text.ToLower())));
+                // 
+                ShowFilteredUsers(dxListUsers, lstUser);
+            }
+            else
+            {   // назакладке Юзеры->Роли
+                // отфильтровать список по именам
+                if (txtFind.Text.Length == 0)
+                    lstUser = _OLAP.db.listUsers;
+                else
+                    lstUser = _OLAP.db.listUsers.FindAll(x => (x.Name.Contains(txtFind.Text.ToLower())));
+                //
+                ShowFilteredUsers(dxListUserAll, lstUser);
+            }
         }
     }
 }
