@@ -277,14 +277,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OLAP roles viewer.exe" size="204800">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OLAP roles viewer.exe" size="205312">
       <assemblyIdentity name="OLAP roles viewer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>l3qBAbeONzO0wikkV5bm8pfkzdc=</dsig:DigestValue>
+        <dsig:DigestValue>tFGTU9wb73wHrs5BDHpWkBGFLWQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

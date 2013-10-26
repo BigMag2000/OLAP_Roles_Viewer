@@ -60,6 +60,8 @@ namespace OLAP_roles
         /// </summary>
         public string UserDomainLogin
         { // получить логин с доменом в виде HOUSE\GLAZOV
+            // логины бывают вида a.b.myname@domen.ru
+            //ниже есть цикл для поиска точки, после символа @
             get
             {
                 string login, domen;
@@ -67,11 +69,22 @@ namespace OLAP_roles
                 if (_nameEmail.IndexOf("@") > 0)
                 {
                     i1 = _nameEmail.IndexOf("@");
-                    i2 = _nameEmail.IndexOf(".");
+                    // ищем точку после @
+                    i2 = 0;
+                    while (i2 <= i1)
+                    {
+                        i2 = _nameEmail.IndexOf(".", i2+1);
+                        if (i2 == 0) break;
+                    }
                     // login
                     login = _nameEmail.Substring(0, i1);
-                    //domen
-                    domen = _nameEmail.Substring( (i1 + 1), i2-i1-1);
+
+                    if (i2 > 0)
+                        //domen
+                        domen = _nameEmail.Substring((i1 + 1), i2 - i1 - 1);
+                    else
+                        domen = "";
+                    
                 }
                 else
                 {
@@ -94,6 +107,8 @@ namespace OLAP_roles
             _nameFull = name;
         }
     }
+
+    //*******************************************************************************************/
 
     /// <summary>
     ///  Обработчик для получения списка доменных пользователей
@@ -137,7 +152,7 @@ namespace OLAP_roles
             //searcher.Filter = "objectClass=Person"; // пользователи и компьютеры
             searcher.Filter = "(&(objectClass=user)(objectCategory=person)(givenName=" + _NameToSeacrh + "*))"; // только пользователи
             //SearchResult result = searcher.FindOne();
-            results = searcher.FindAll();
+//            results = searcher.FindAll();
 
             /*
              * получения всех элементов из Актив Директори по шаблону uname - человеское имя, первые буквы
